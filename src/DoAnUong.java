@@ -1,8 +1,11 @@
-public abstract class DoAnUong {
-    private int id = dem++;
-    private String ten;
+public class DoAnUong {
     private double gia;
-    private static int dem = 0;
 
+    public double getGia() {
+        return gia;
+    }
 
+    public void setGia(double gia) {
+        this.gia = gia;
+    }
 }
